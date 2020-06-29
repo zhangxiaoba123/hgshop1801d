@@ -1,4 +1,4 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <groupId>com.zxy.hgshop</groupId>
@@ -7,7 +7,7 @@
   </parent>
   <artifactId>hgshop-goods-service</artifactId>
   <dependencies>
-  <!-- https://mvnrepository.com/artifact/commons-beanutils/commons-beanutils -->
+  	<!-- https://mvnrepository.com/artifact/commons-beanutils/commons-beanutils -->
 		<dependency>
 		    <groupId>commons-beanutils</groupId>
 		    <artifactId>commons-beanutils</artifactId>
@@ -176,6 +176,7 @@
 			<artifactId>spring-kafka</artifactId>
 			<!-- <version>1.0.0.RC1</version> -->
 		</dependency>
+		
   	<dependency>
   		<groupId>com.zxy.hgshop</groupId>
   		<artifactId>hgshop-goods-interface</artifactId>

@@ -5,7 +5,7 @@
     <artifactId>hgshop-zxy-parent</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
-    <!-- 开始拷贝的位置 -->
+     <!-- 开始拷贝的位置 -->
   <dependencies>
 		<dependency>
 			<groupId>com.github.pagehelper</groupId>
@@ -42,6 +42,6 @@
 			<artifactId>spring-data-elasticsearch</artifactId>
 		</dependency>
   </dependencies>
-  <!-- <结束拷贝的位置> -->
+  <!-- <技术拷贝的位置> -->
   <artifactId>hgshop-goods-interface</artifactId>
 </project>

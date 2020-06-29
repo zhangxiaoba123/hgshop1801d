@@ -1,12 +1,13 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.zxy.hgshop</groupId>
   <artifactId>hgshop-zxy-parent</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>pom</packaging>
   <name>hgshop</name>
-  <description>这是一个豪哥商城，简称拼夕夕</description>
- <!-- 定义主要版本号 -->
+  <description>这是一个购物商城，简称拼夕夕</description>
+  
+  <!-- 定义主要版本号 -->
 	<properties>
 		<spring.version>5.1.5.RELEASE</spring.version>
 		<mybatis.version>3.4.2</mybatis.version>
@@ -282,7 +283,7 @@
 				<configuration>
 					<httpConnector>
 						<!-- 端口号 -->
-						<port>9093</port>
+						<port>9002</port>
 						<!-- 项目访问路径 -->
 						<host>192.168.1.105</host>
 					</httpConnector>
@@ -312,11 +313,14 @@
 		</plugins>	
 	</build>
 	<!-- 结束拷贝的位置 -->
+	
+  
   <modules>
   	<module>hgshop-goods-interface</module>
-  	<module>hgshop-goods-service</module>
   	<module>hgshop-user-interface</module>
+  	<module>hgshop-goods-service</module>
   	<module>hgshop-user-service</module>
+  	<module>hgshop-manager</module>
   	<module>hgshop-web</module>
   </modules>
 </project>
